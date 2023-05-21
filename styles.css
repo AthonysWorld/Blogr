@@ -1,0 +1,38 @@
+/* 
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+ */
+ body{
+    text-align: center;
+    margin: 0%;
+ }
+
+ .container-fluid-1{
+    background-color: hsl(13, 100%, 72%);
+    height: 400px;
+    border-bottom-left-radius: 80px;
+    color: white;
+    padding-top: 10px;
+ }
+ .container{
+    margin-top: 20px;
+ }
+ .btn{
+    background-color: white;
+    border-radius: 20px;
+ }
+ .btnU{
+color:hsl(13, 100%, 72%) ;
+ }
+ .img{
+    width: 100%;
+ }
+ .phones{
+    border-bottom-left-radius: 80px;
+ }
+
+ #footer, .phones{
+    background-color: hsl(237, 23%, 32%);
+    color: white;
+    border-top-right-radius: 80px;
+ }
