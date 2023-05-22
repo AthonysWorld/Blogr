@@ -1,81 +1,58 @@
-body{
+/* 
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+ */
+ body{
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    background-color:hsl(228, 45%, 44%) ;
-    color: white;
-    padding-top: 20px;
-}
+    margin: 0%;
+ }
 
-.container{
-    border-radius: 15px;
-    background-color: whitesmoke;
-    color: hsl(228, 45%, 44%);
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.459);
-    width: 300px;
-    height: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    text-align: right;
-    padding-right: 10px;
-    padding-top: 30px;
-}
-
-
-.child{
+ .container-fluid-1{
+    background-color: hsl(13, 100%, 72%);
     height: 400px;
-    text-align: center;
-    background-color: hsl(228, 45%, 44%);
-    margin-top: 10px;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.596);
+    border-bottom-left-radius: 80px;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+ }
+ .two{
+   width: 100%;
+   margin-top: 20px;
+   background-color: hsl(237, 23%, 32%);
+   color: white;
+   border-bottom-left-radius: 80px;
+ }
+ #middle{
+   margin: 0%;
+ }
+ .three{
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+.container-fluid-3{
+padding: 10px;
 }
 
-.container-child{
-    height: 40px;
-    width: 50px;
-    margin-right: 15px;
-    margin-top: 10px;
-    box-shadow: 2px 1px 1px 2px rgba(0, 0, 0, 0.432);
-    margin-bottom: 10px;
-    background-color:whitesmoke ;
-    color: hsl(228, 45%, 44%);
-    padding: 1px;
-    float: right;
-    border-radius: 15px;
-}
+ .container{
+    margin-top: 20px;
+ }
+ .btn{
+    background-color: white;
+    border-radius: 20px;
+ }
+ .btnU{
+color:hsl(13, 100%, 72%) ;
+ }
+ .img1{
+    width: 100%;
+ }
+ .phone{
+   width: 100%;
+ }
 
-.container-child:hover{
+ .container-fluid-4, .phones{
+    background-color: hsl(237, 23%, 32%);
     color: white;
-    background-color: black;
-}
-
-.container-child2{
-    height: 50px;
-    width: 100px;
-    margin-right: 30px;
-    margin-left: 5px;
-    margin-top: 30px;
-    box-shadow: 2px 1px 1px 2px rgba(0, 0, 0, 0.432);
-    margin-bottom: 10px;
-    background-color:whitesmoke ;
-    color: hsl(228, 45%, 44%);
-    padding: 3px;
-    float: right;
-    border-radius: 15px;
-}
-.container-child2:hover{
-    color: white;
-    background-color: black;
-}
-.del,.reset{
-    background-color: hsl(228, 45%, 44%);
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.equals{
-background-color: red;
-color: white;
-}
+    border-top-right-radius: 80px;
+ }
